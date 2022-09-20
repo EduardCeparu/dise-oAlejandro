@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 640px;
+    height: auto;
+    margin: 10% auto;
+    position: relative;
+    
+}
+.contenido{
+    text-align: center;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-style: italic;
+}
+
+.contenido img{
+    margin-bottom: 30px;
+    width: 500px;
+}

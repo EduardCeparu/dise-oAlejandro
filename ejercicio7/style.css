@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+img{
+    height:200px;
+    width: 280px;
+    border-radius: 50%;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+}
+.gris{
+    background-color: grey;
+    height: 250px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+nav{
+    background-color: darkblue;
+    height: 50PX;
+    position: sticky;
+    top: 0;
+}
+ul{
+    display: flex;
+    line-height: 50px;
+    justify-content: center;
+    list-style: none;
+}
+a{
+    margin: 0 5px;
+    text-align: center;
+    text-decoration: none;
+    float: left;
+    color: white;
+}
+ 
+p{
+    text-align: justify;
+    margin: 30px 100px;
+}
